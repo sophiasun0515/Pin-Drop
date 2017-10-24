@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18023A3D1F9FF26B00E674F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A3C1F9FF26B00E674F0 /* AppDelegate.swift */; };
+		18023A3F1F9FF26B00E674F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A3E1F9FF26B00E674F0 /* ViewController.swift */; };
+		18023A421F9FF26B00E674F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18023A401F9FF26B00E674F0 /* Main.storyboard */; };
+		18023A451F9FF26B00E674F0 /* Pin_Drop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18023A431F9FF26B00E674F0 /* Pin_Drop.xcdatamodeld */; };
+		18023A471F9FF26B00E674F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18023A461F9FF26B00E674F0 /* Assets.xcassets */; };
+		18023A4A1F9FF26B00E674F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18023A481F9FF26B00E674F0 /* LaunchScreen.storyboard */; };
+		18023A551F9FF26B00E674F0 /* Pin_DropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A541F9FF26B00E674F0 /* Pin_DropTests.swift */; };
+		18023A601F9FF26B00E674F0 /* Pin_DropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A5F1F9FF26B00E674F0 /* Pin_DropUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18023A511F9FF26B00E674F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18023A311F9FF26B00E674F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18023A381F9FF26B00E674F0;
+			remoteInfo = "Pin Drop";
+		};
+		18023A5C1F9FF26B00E674F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18023A311F9FF26B00E674F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18023A381F9FF26B00E674F0;
+			remoteInfo = "Pin Drop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18023A391F9FF26B00E674F0 /* Pin Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pin Drop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18023A3C1F9FF26B00E674F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18023A3E1F9FF26B00E674F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18023A411F9FF26B00E674F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18023A441F9FF26B00E674F0 /* Pin_Drop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pin_Drop.xcdatamodel; sourceTree = "<group>"; };
+		18023A461F9FF26B00E674F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18023A491F9FF26B00E674F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18023A4B1F9FF26B00E674F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18023A501F9FF26B00E674F0 /* Pin DropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pin DropTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18023A541F9FF26B00E674F0 /* Pin_DropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin_DropTests.swift; sourceTree = "<group>"; };
+		18023A561F9FF26B00E674F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18023A5B1F9FF26B00E674F0 /* Pin DropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pin DropUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18023A5F1F9FF26B00E674F0 /* Pin_DropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin_DropUITests.swift; sourceTree = "<group>"; };
+		18023A611F9FF26B00E674F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18023A361F9FF26B00E674F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18023A4D1F9FF26B00E674F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18023A581F9FF26B00E674F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18023A301F9FF26B00E674F0 = {
+			isa = PBXGroup;
+			children = (
+				18023A3B1F9FF26B00E674F0 /* Pin Drop */,
+				18023A531F9FF26B00E674F0 /* Pin DropTests */,
+				18023A5E1F9FF26B00E674F0 /* Pin DropUITests */,
+				18023A3A1F9FF26B00E674F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18023A3A1F9FF26B00E674F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18023A391F9FF26B00E674F0 /* Pin Drop.app */,
+				18023A501F9FF26B00E674F0 /* Pin DropTests.xctest */,
+				18023A5B1F9FF26B00E674F0 /* Pin DropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18023A3B1F9FF26B00E674F0 /* Pin Drop */ = {
+			isa = PBXGroup;
+			children = (
+				18023A3C1F9FF26B00E674F0 /* AppDelegate.swift */,
+				18023A3E1F9FF26B00E674F0 /* ViewController.swift */,
+				18023A401F9FF26B00E674F0 /* Main.storyboard */,
+				18023A461F9FF26B00E674F0 /* Assets.xcassets */,
+				18023A481F9FF26B00E674F0 /* LaunchScreen.storyboard */,
+				18023A4B1F9FF26B00E674F0 /* Info.plist */,
+				18023A431F9FF26B00E674F0 /* Pin_Drop.xcdatamodeld */,
+			);
+			path = "Pin Drop";
+			sourceTree = "<group>";
+		};
+		18023A531F9FF26B00E674F0 /* Pin DropTests */ = {
+			isa = PBXGroup;
+			children = (
+				18023A541F9FF26B00E674F0 /* Pin_DropTests.swift */,
+				18023A561F9FF26B00E674F0 /* Info.plist */,
+			);
+			path = "Pin DropTests";
+			sourceTree = "<group>";
+		};
+		18023A5E1F9FF26B00E674F0 /* Pin DropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18023A5F1F9FF26B00E674F0 /* Pin_DropUITests.swift */,
+				18023A611F9FF26B00E674F0 /* Info.plist */,
+			);
+			path = "Pin DropUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18023A381F9FF26B00E674F0 /* Pin Drop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18023A641F9FF26B00E674F0 /* Build configuration list for PBXNativeTarget "Pin Drop" */;
+			buildPhases = (
+				18023A351F9FF26B00E674F0 /* Sources */,
+				18023A361F9FF26B00E674F0 /* Frameworks */,
+				18023A371F9FF26B00E674F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pin Drop";
+			productName = "Pin Drop";
+			productReference = 18023A391F9FF26B00E674F0 /* Pin Drop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18023A4F1F9FF26B00E674F0 /* Pin DropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18023A671F9FF26B00E674F0 /* Build configuration list for PBXNativeTarget "Pin DropTests" */;
+			buildPhases = (
+				18023A4C1F9FF26B00E674F0 /* Sources */,
+				18023A4D1F9FF26B00E674F0 /* Frameworks */,
+				18023A4E1F9FF26B00E674F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18023A521F9FF26B00E674F0 /* PBXTargetDependency */,
+			);
+			name = "Pin DropTests";
+			productName = "Pin DropTests";
+			productReference = 18023A501F9FF26B00E674F0 /* Pin DropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18023A5A1F9FF26B00E674F0 /* Pin DropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18023A6A1F9FF26B00E674F0 /* Build configuration list for PBXNativeTarget "Pin DropUITests" */;
+			buildPhases = (
+				18023A571F9FF26B00E674F0 /* Sources */,
+				18023A581F9FF26B00E674F0 /* Frameworks */,
+				18023A591F9FF26B00E674F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18023A5D1F9FF26B00E674F0 /* PBXTargetDependency */,
+			);
+			name = "Pin DropUITests";
+			productName = "Pin DropUITests";
+			productReference = 18023A5B1F9FF26B00E674F0 /* Pin DropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18023A311F9FF26B00E674F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sophia's Secret Garden";
+				TargetAttributes = {
+					18023A381F9FF26B00E674F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q24729YL82;
+						ProvisioningStyle = Automatic;
+					};
+					18023A4F1F9FF26B00E674F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q24729YL82;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18023A381F9FF26B00E674F0;
+					};
+					18023A5A1F9FF26B00E674F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q24729YL82;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18023A381F9FF26B00E674F0;
+					};
+				};
+			};
+			buildConfigurationList = 18023A341F9FF26B00E674F0 /* Build configuration list for PBXProject "Pin Drop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18023A301F9FF26B00E674F0;
+			productRefGroup = 18023A3A1F9FF26B00E674F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18023A381F9FF26B00E674F0 /* Pin Drop */,
+				18023A4F1F9FF26B00E674F0 /* Pin DropTests */,
+				18023A5A1F9FF26B00E674F0 /* Pin DropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18023A371F9FF26B00E674F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18023A4A1F9FF26B00E674F0 /* LaunchScreen.storyboard in Resources */,
+				18023A471F9FF26B00E674F0 /* Assets.xcassets in Resources */,
+				18023A421F9FF26B00E674F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18023A4E1F9FF26B00E674F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18023A591F9FF26B00E674F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18023A351F9FF26B00E674F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18023A451F9FF26B00E674F0 /* Pin_Drop.xcdatamodeld in Sources */,
+				18023A3F1F9FF26B00E674F0 /* ViewController.swift in Sources */,
+				18023A3D1F9FF26B00E674F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18023A4C1F9FF26B00E674F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18023A551F9FF26B00E674F0 /* Pin_DropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18023A571F9FF26B00E674F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18023A601F9FF26B00E674F0 /* Pin_DropUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18023A521F9FF26B00E674F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18023A381F9FF26B00E674F0 /* Pin Drop */;
+			targetProxy = 18023A511F9FF26B00E674F0 /* PBXContainerItemProxy */;
+		};
+		18023A5D1F9FF26B00E674F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18023A381F9FF26B00E674F0 /* Pin Drop */;
+			targetProxy = 18023A5C1F9FF26B00E674F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18023A401F9FF26B00E674F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18023A411F9FF26B00E674F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18023A481F9FF26B00E674F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18023A491F9FF26B00E674F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18023A621F9FF26B00E674F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18023A631F9FF26B00E674F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18023A651F9FF26B00E674F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q24729YL82;
+				INFOPLIST_FILE = "Pin Drop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.sophia.Pin-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18023A661F9FF26B00E674F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q24729YL82;
+				INFOPLIST_FILE = "Pin Drop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.sophia.Pin-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18023A681F9FF26B00E674F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q24729YL82;
+				INFOPLIST_FILE = "Pin DropTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.sophia.Pin-DropTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pin Drop.app/Pin Drop";
+			};
+			name = Debug;
+		};
+		18023A691F9FF26B00E674F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q24729YL82;
+				INFOPLIST_FILE = "Pin DropTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.sophia.Pin-DropTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pin Drop.app/Pin Drop";
+			};
+			name = Release;
+		};
+		18023A6B1F9FF26B00E674F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q24729YL82;
+				INFOPLIST_FILE = "Pin DropUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.sophia.Pin-DropUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pin Drop";
+			};
+			name = Debug;
+		};
+		18023A6C1F9FF26B00E674F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q24729YL82;
+				INFOPLIST_FILE = "Pin DropUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.sophia.Pin-DropUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pin Drop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18023A341F9FF26B00E674F0 /* Build configuration list for PBXProject "Pin Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18023A621F9FF26B00E674F0 /* Debug */,
+				18023A631F9FF26B00E674F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18023A641F9FF26B00E674F0 /* Build configuration list for PBXNativeTarget "Pin Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18023A651F9FF26B00E674F0 /* Debug */,
+				18023A661F9FF26B00E674F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18023A671F9FF26B00E674F0 /* Build configuration list for PBXNativeTarget "Pin DropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18023A681F9FF26B00E674F0 /* Debug */,
+				18023A691F9FF26B00E674F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18023A6A1F9FF26B00E674F0 /* Build configuration list for PBXNativeTarget "Pin DropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18023A6B1F9FF26B00E674F0 /* Debug */,
+				18023A6C1F9FF26B00E674F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18023A431F9FF26B00E674F0 /* Pin_Drop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18023A441F9FF26B00E674F0 /* Pin_Drop.xcdatamodel */,
+			);
+			currentVersion = 18023A441F9FF26B00E674F0 /* Pin_Drop.xcdatamodel */;
+			path = Pin_Drop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18023A311F9FF26B00E674F0 /* Project object */;
+}
